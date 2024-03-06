@@ -52,47 +52,46 @@
            
 
 
-<div id="lg_id01" class="lg_modal">
+            <div id="lg_id01" class="lg_modal">
 
-<form class="lg_modal-content lg_animate" action="index2.php" method="post">
-  <div class="lg_imgcontainer">
-    <span onclick="document.getElementById('lg_id01').style.display='none'" class="lg_close" title="Close Modal">&times;</span>
-    <img src="images/AVATER.jpg" alt="Avatar" class="lg_avatar">
-  </div>
+              <form class="lg_modal-content lg_animate" action="index2.php" method="post">
+                <div class="lg_imgcontainer">
+                  <span onclick="document.getElementById('lg_id01').style.display='none'" class="lg_close" title="Close Modal">&times;</span>
+                  <img src="images/AVATER.jpg" alt="Avatar" class="lg_avatar">
+                </div>
 
-  <div class="lg_container">
-    <label for="mail"><b>Email</b></label>
-    <input type="text" placeholder="Enter Your Email" name="mail" required>
+                <div class="lg_container">
+                  <label for="mail"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Your Email" name="mail" required>
 
-    <label for="pasw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="pasw" required>
-    <br>
+                  <label for="pasw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="pasw" required>
+                  <br>
 
-    <a href="index2.php"></a><button class="nav-link nlogin" type="submit">Login</button>
+                  <a href="index2.php"></a><button class="nav-link nlogin" type="submit">Login</button>
 
-    <br>
-    <br>
+                  <br>
+                  <br>
 
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-
-  <div class="lg_container" style="background-color:#f1f1f1">
-  
-<span class="lg_pasw">Forgot <a href="#"> password?</a></span>
-  </div>
-
-  <div class="lg_container" style="background-color:#f1f1f1">
-  
-  <span class="lg_create_acc">Don't have an account? <a href="registration.php">Register here</a></span>
-  </div>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
 
 
-</form>
-</div>
+                <div class="lg_container" style="background-color:#f1f1f1">
+                
+                <span class="lg_pasw">Forgot <a href="#"> password?</a></span>
+                </div>
 
+                <div class="lg_container" style="background-color:#f1f1f1">
+                
+                <span class="lg_create_acc">Don't have an account? <a href="registration.php">Register here</a></span>
+                </div>
+
+
+              </form>
+            </div>
         </nav>
     </header>
     <script src="scripts/nav.js"></script>
